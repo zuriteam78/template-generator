@@ -1,5 +1,5 @@
 # template-generator
-Terms and Condition with privacy policy generator.
+Terms and Condition with privacy policy generator is a website that allows companies or business to create a terms and condition template or privacy policy templates on their website.
 
 # Project setup and contribution Guide.
 
@@ -15,6 +15,18 @@ Git clone https://github.com/zuriteam78/template-generator.git
 cd template-generator
 ```
 
+- Add the main repo remote to ypor project upstream
+
+```
+git remote add upstream https://github.com/zuriteam78/template-generator.git
+```
+
+- Pull upstream
+
+```
+git pull upstream dev
+```
+
 - Switch to the dev branch
 
 ```
@@ -28,4 +40,6 @@ git add .
 git commit -m "your commit message"
 git push origin dev
 ```
+
+- Create a pull request on the `dev` branch
 
